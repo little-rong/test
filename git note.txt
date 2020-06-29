@@ -1,0 +1,23 @@
+快速搜索的快捷键是t
+仓库（repository）
+收藏（star）
+关注（watch）
+复制克隆项目（fork）
+发起请求（pull request）[当复制了这个仓库的的用户有更改，可以通过这个方法来通知发起者对仓库是否进行更新]
+
+git工作区域：
+git repository(git 仓库)：最终确定的文件保存到仓库，成为一个新的版本，并且对他人可见
+暂存区：暂存已经修改的文件最后统一提交到git仓库中
+工作区（working directory）添加、编辑、修改文件等动作
+
+git status
+git commit -m "提交描述"
+git status
+git add hello.php
+git status(查看状态)
+
+基本信息设置:
+1.设置信息设置 
+git config --global user.name "user name"
+2.设置用户名邮箱
+git config --global user.name "xxxx@xx.com"
