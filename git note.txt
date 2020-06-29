@@ -20,4 +20,24 @@ git status(查看状态)
 1.设置信息设置 
 git config --global user.name "user name"
 2.设置用户名邮箱
-git config --global user.name "xxxx@xx.com"
+git config --global user.email "xxxx@xx.com"
+
+mkdir xxx
+创建文件夹
+
+cd xxx
+打开文件夹
+
+git init
+初始化仓库
+
+向仓库创建文件 touch xxx
+
+1.创建文件
+2.添加到暂存区
+3.把暂存区提交到仓库
+
+修改仓库文件
+1.vi,插入i ,退出 esc
+2.保存内容  ：wq
+3.放弃保存  ：e!
