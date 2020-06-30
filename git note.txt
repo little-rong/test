@@ -41,3 +41,7 @@ git init
 1.vi,插入i ,退出 esc
 2.保存内容  ：wq
 3.放弃保存  ：e!
+
+rm test.php  删除文件
+git rm test.php  从git删除文件
+git commit -m  "提交描述"
