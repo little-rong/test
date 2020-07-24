@@ -1,0 +1,22 @@
+Node 环境搭建
+1.下载软件
+官网：https://nodejs.org/en/
+
+2.查看是否安装成功
+打开命令行CMD，查看node和npm是否安装成功了，下面的代码是查看其版本：
+node -v
+npm -v
+
+3.配置环境
+在D盘上创建两个文件夹分别叫node_global，和node_cache，分别存储的是全局模块和缓存
+  npm config set cache 位置
+  npm config set prefix 位置
+  
+4.右键此电脑，高级系统设置，系统属性，环境变量，
+  4.1其中用户变量如下：
+  Path node_global 的位置
+  4.2系统变量如下：
+  新建，名字为NODE_PATH
+  
+5.模板的全局安装：
+npm install express -g   ( -g 是全局安装的意思)
